@@ -45,19 +45,19 @@
                 <!--texto exibido no menu de navegação-->
             </a>
 
-            <a href="" class="header-nav-a">
+            <a href="#servicos" class="header-nav-a">
             <i class="fa-solid fa-trowel-bricks"></i>
             <!--Icone representando "Serviços"--> 
             <span>Serviços</span>
             </a>
 
-            <a href="" class="header-nav-a">
+            <a href="#quemsomos" class="header-nav-a">
                 <i class="fa-solid fa-circle-info"></i>
                 <!--icone representado "sobre"-->
                 <span>Sobre</span>
             </a>
 
-            <a href="" class="header-nav-a">
+            <a href="#contato" class="header-nav-a">
             <i class="fa-solid fa-at"></i>
             <!--icone representando "Contato"-->
             <span>Contato</span>
@@ -316,11 +316,78 @@
                     </div>
                 </div>
             </div>
-
-
     </section>
 
-    <footer><br><br><br><br><br><br><br><br><br></footer>
+    <section id="contato"> <!-- Seção de formulário de contato -->
+        <h2>Entre em contato</h2><!-- Título da seção de contato -->
+        <form action="">  <!-- Formulário de contato -->
+
+            <label for="nome">Nome</label> <!-- Rótulo para o campo de nome -->
+            <input type="text" name="nome" id="nome">  <!-- Campo de entrada de texto para o nome -->
+
+            <label for="email">E-mail</label> <!-- Rótulo para o campo de e-mail -->
+            <input type="text" name="email" id="email"> <!-- Campo de entrada para o e-mail (o tipo "email" valida o formato de e-mail) -->
+
+            <label for="assunto">Assunto</label> <!-- Rótulo para o campo de assunto -->
+            <input type="text" name="assunto" id="assunto">  <!-- Campo de entrada de texto para o assunto -->
+
+            <label for="mensagem">Mensagem</label>  <!-- Rótulo para o campo de mensagem -->
+            <textarea name="mensagem" id="mensagem"></textarea> <!-- Área de texto para a mensagem -->
+
+            <input type="submit" value="Enviar">  <!-- Botão de envio do formulário -->
+
+        </form>
+
+    </section>
+</main>
+
+<div id="whatsapp">
+    <!-- Container para o ícone do WhatsApp -->
+    <a href="https://www.whatsapp.com/">
+        <!-- Link para o WhatsApp, onde o href deve conter o número ou URL desejado -->
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- Ícone do WhatsApp, utilizando a biblioteca Font Awesome -->
+    </a>
+</div>
+
+<div id="up">
+    <a href="#header-nav">
+        <i class="fa-regular fa-hand-point-up"></i>
+    </a>
+</div>
+
+        <!-- Rodapé da página -->
+    <footer>
+        <!-- Seção que contém informações sobre o desenvolvedor -->
+        <section id="desenvolvedor">
+            <img src="assets/img/Logo rodapé.png""> <!-- Imagem do ícone do desenvolvedor -->
+            <div id="desenvolvedor-identificacao">
+                <p>Desenvolvido por</p> <!-- Texto que informa quem desenvolveu -->
+                <h3>Bruno Barboza e Thiago Augusto</h3> <!-- Nome do desenvolvedor com o símbolo de registro de marca -->
+            </div>
+        </section>
+
+        <!-- Seção que lista os serviços oferecidos -->
+        <section id="desenvolvedor-servicos">
+            <ul>
+                <li>Desenvolvimento de Sites Responsivos</li> <!-- Serviço 1 -->
+                <li>Design de Interface de Usuário (UI)</li> <!-- Serviço 2 -->
+                <li>Otimização para SEO</li> <!-- Serviço 3 -->
+                <li>Criação de Identidade Visual</li> <!-- Serviço 4 -->
+                <li>Manutenção de Sites e Atualizações</li> <!-- Serviço 5 -->
+            </ul>
+        </section>
+
+        <!-- Seção com links para as redes sociais -->
+        <section id="redessociais">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a> <!-- Ícone do LinkedIn -->
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a> <!-- Ícone do Twitter -->
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a> <!-- Ícone do Instagram -->
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a> <!-- Ícone do Facebook -->
+            <a href=""><i class="fa-brands fa-tiktok"></i></a> <!-- Ícone do TikTok -->
+        </section>
+    </footer>
+    <!-- Fim do rodapé -->
 </body>
 
 </html>
